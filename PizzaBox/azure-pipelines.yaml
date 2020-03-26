@@ -71,7 +71,7 @@ stages:
             - task: AzureRmWebAppDeployment@4
               inputs:
                 ConnectionType: "AzureRM"
-                azureSubscription: ""
+                azureSubscription: "Azure subscription 1(a4086594-e733-4902-b070-4e28fa022181)"
                 appType: "webAppContainer"
                 WebAppName: "PizzaBox"
                 DockerNamespace: "bennetcd"
